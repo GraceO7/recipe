@@ -26,8 +26,8 @@ This is a solution to the [Recipe page challenge on Frontend Mentor](https://www
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: (https://graceo7.github.io/recipe)
+- Live Site URL: (https://recipeetemp.netlify.app/)
 
 ## My process
 
@@ -96,13 +96,11 @@ MDN Web Docs - Comprehensive documentation for web development.
 CSS-Tricks - A great resource for CSS techniques and tutorials.
 
 
-
 ## Author
 
-- Website - [ojeyemi opeyemi](https://www.your-site.com)
-- Frontend Mentor - [@GraceO7](https://www.frontendmentor.io/profile/GraceO7)
+- Website - [ojeyemi opeyemi](https://recipeetemp.netlify.app/)
+- Frontend Mentor - [@GraceO7](https://graceo7.github.io/recipe)
 - Twitter - [@Gracie_coder](https://www.twitter.com/@Gracie_coder)
-
 
 ## Acknowledgments
 This project was inspired by the Recipe Page challenge on Frontend Mentor. Special thanks to the Frontend Mentor community for their support and feedback.
