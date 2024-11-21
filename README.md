@@ -101,7 +101,7 @@ CSS-Tricks - A great resource for CSS techniques and tutorials.
 
 - Website - [ojeyemi opeyemi](https://www.your-site.com)
 - Frontend Mentor - [@GraceO7](https://www.frontendmentor.io/profile/GraceO7)
-- Twitter - [@Gracie_coder1](https://www.twitter.com/@Gracie_coder)
+- Twitter - [@Gracie_coder](https://www.twitter.com/@Gracie_coder)
 
 
 ## Acknowledgments
