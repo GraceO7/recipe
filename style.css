@@ -1,0 +1,143 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+:root{
+    --font-family1: 'YoungSerif';
+    --font-family2: "Outfit", sans-serif;
+
+/* NEUTRAL COLORS */
+    --color-1:  hsl(0, 0%, 100%);
+    --color-2:  hsl(330, 100%, 98%);
+    --color-3:  hsl(30, 54%, 90%);
+    --color-4:hsl(30, 18%, 87%) ;
+    --color-5: hsl(30, 10%, 34%) ;
+    --color-6:  hsl(24, 5%, 18%) ; 
+    
+    /* PRIMARY COLOR */
+    --primary-color1: hsl(14, 45%, 36%);
+    --primary-color2: hsl(332, 51%, 32%);
+    
+    
+
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: var(--color-3);
+    display: grid;
+    place-items: center;
+    
+    font-family: var(--font-family2);
+}
+.container{
+    background-color: var(--color-1);
+    padding: 20px ;
+    width: 50%;
+    height: max-content;
+    margin: 70px 0;
+    border-radius: 10px;
+    
+    
+}
+.container div{
+    line-height: 2;
+margin-top: 30px;
+}
+img{
+    width:100%;
+    border-radius: 5px;
+}
+h1,h3,h5{
+    font-family:var(--font-family1) ;
+}
+li::marker{
+margin-left: 30px;
+}
+h3{
+    color: var(--primary-color1);
+}
+.preparation{
+    background-color: var(--color-2);
+    border-radius: 10px;
+    padding: 20px;
+    
+}
+.preparation h4{
+    color: var(--primary-color2);
+    font-weight: bolder;
+}
+.ingredients{
+    border-bottom: 2px solid rgb(231, 228, 228);
+    
+}
+
+li:last-child{
+    padding-bottom: 20px;
+}
+
+.instructions ol{
+    margin-left: 10px;
+}
+.instructions ol li::marker{
+    color: var(--primary-color1);
+    font-weight: 700;
+    font-size: 1em;
+    padding-right: 10px
+}
+
+ .nutrients{
+    font-family: var(--font-family2);
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-around;
+    border-bottom: 2px solid var(--color-2);
+    
+}
+.nutrients h5{
+    color: var(--primary-color2);
+    font-family: var(--font-family2);
+}
+@media(max-width:450px){
+.container{
+    width: 100%;
+    min-height: 100vh;
+}
+img{
+    width: 100%;
+}
+    h1{
+        font-size: 8em;
+        
+    }
+    h2,h3,h4,h5{
+        font-size: .8em;
+    }
+    p{
+        font-size: .8em;
+    }
+    ol li::marker{
+        color: var(--primary-color2);
+        font-weight: 800;
+        font-size: 1.5em;
+    }
+    
+    img{
+        max-width: fit-content;
+    }
+}
+@media(max-width:700px){
+ body{
+font-size: .9em;
+
+
+ } 
+
+ p{
+    line-height: 1.5;
+ }
+ h1{
+    font-size: 1.5em;
+margin-bottom: 10px;}
+}
